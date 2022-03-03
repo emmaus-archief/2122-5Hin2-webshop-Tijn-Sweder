@@ -18,6 +18,11 @@ CREATE TABLE Waardering (
   );
   
   
+  CREATE TABLE game_genre (
+  id INTEGER PRIMARY KEY AUTOINCREMENT ,
+  products_id integer,
+  genre integer
+  );
   
 
 
@@ -47,5 +52,7 @@ insert into Waardering (name) values ('slecht');
 
   
   
-  
+  insert into game_genre (products_id, genre) values (2+5+1,'avontuur');
+  insert into game_genre (products_id, genre) values (1+6+2+3, 'actie');
+  insert into game_genre (products_id, genre) values (3+4+6, 'strategie');
  
