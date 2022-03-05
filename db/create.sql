@@ -37,12 +37,12 @@ CREATE TABLE Waardering (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price, tijdsduur, waardering_id) values ('GTA V', '', '816905633-0', 1.50,10, 2);
-insert into products (name, description, code, price, tijdsduur, waardering_id) values ('god of war', '', '077030122-3', 1.75,25, 1);
-insert into products (name, description, code, price, tijdsduur, waardering_id) values ('Hearts of iron', '', '445924201-X', 2,3, 4);
-insert into products (name, description, code, price, tijdsduur, waardering_id) values ('RISK', '', '693155505-7', 2,3, 3);
-insert into products (name, description, code, price, tijdsduur, waardering_id) values ('assasins creed black flag', '', '686928463-6', 3,8, 2);
-insert into products (name, description, code, price, tijdsduur, waardering_id) values ('Call of duty black ops 2', '', '492662523-7', 14,9, 3);
+insert into products (name, description, code, price, tijdsduur, waardering_id) values ('GTA V', 'een wereld waar alles kan en alles mag. Speel nu GTA V', '816905633-0', 15,10, 2);
+insert into products (name, description, code, price, tijdsduur, waardering_id) values ('god of war', 'heb jij ook altijd tegen goden willen vechten? nu kan het in God of War', '077030122-3', 30,25, 1);
+insert into products (name, description, code, price, tijdsduur, waardering_id) values ('Hearts of iron', 'een strategie simulaite tijdens de 2de wereldoorlog. lukt het jou wel om de hele wereld te veroveren?', '445924201-X', 20,3, 4);
+insert into products (name, description, code, price, tijdsduur, waardering_id) values ('RISK', 'het perfecte strategiespel voor jong en oud', '693155505-7', 10,3, 3);
+insert into products (name, description, code, price, tijdsduur, waardering_id) values ('assasins creed black flag', 'zou je altijd al een piraat willen zijn. nu kan met met assasins creed black flag', '686928463-6', 15,8, 2);
+insert into products (name, description, code, price, tijdsduur, waardering_id) values ('Call of duty black ops 2', 'call of duty black ops 2 is de meest bekroonde actie shooter in de wereld dus speel nu', '492662523-7', 10,9, 3);
 
 
 insert into Waardering (name) values ('goed');
