@@ -1,4 +1,10 @@
 /* all pages */
+body, main {
+    background-color: purple;
+}
+
+
+
 
 footer {
   margin: 20px;
@@ -74,3 +80,4 @@ footer {
   float: left;
 }
 
+  
